@@ -8,7 +8,7 @@ This is the backend for an e-commerce application built using **Express**, **Typ
 
 ### 1️. Clone the Repository
 
-git clone https://github.com/vatsal-elearning/authentication-backend.git
+git clone https://github.com/vatsal-elearning/authentication-backend.git  
 cd authentication-backend
 
 ### 2. Install Dependencies
