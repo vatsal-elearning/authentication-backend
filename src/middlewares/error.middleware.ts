@@ -15,6 +15,16 @@ const errorMiddleware = (
         .status(statusCode)
         .json({ success: false, message: "Bad Request", error: message })
       break
+    case 401:
+      res
+        .status(statusCode)
+        .json({ success: false, message: "Unauthorized", error: message })
+      break
+    case 403:
+      res
+        .status(statusCode)
+        .json({ success: false, message: "Forbidden", error: message })
+      break
     case 404:
       res
         .status(statusCode)
